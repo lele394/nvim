@@ -10,7 +10,7 @@ return {
 		inline_comment_dict['#'] = {'py', 'sh'}
 		inline_comment_dict['"'] = {'vim'}	
 		inline_comment_dict['--'] = {'lua'}
-	
+    inline_comment_dict['!'] = {'f90'}
 
 
     vim.g.inline_comment_dict = inline_comment_dict
